@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Inter,sans-serif;
+  background-color: lch(2.04% 0.55 19.35 / 0.782);
+  background-image: url("./logo192.png");
+  background-repeat: no-repeat;
+  background-position: right  70%;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  height: 90px;
+  background-color: #21222A;
+  
+}
+.nav{
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 10px;
+ 
+  
+}
+.nav > img{
+  width: 40px;
+}
+.nav >span{
+  color: #4cd6ee;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  font-weight: 700;
+  
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+
+  
+}
+.nav-list-item{
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.main{
+
+  padding :60px 30px;
+  color: white;
+}
+
+.main > h1{
+  
+  margin: 0;
+  font-size: 2.6rem;
+  
+}
+.main > ul{
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  max-width: 500px;
+}
+.main > ul > li{
+  margin-block: 10px;
+  line-height: 19px;
+}
+
+.main>ul>li::marker{
+  color: #61dafb;
+  font-size: 1.2rem;
+}
